@@ -57,7 +57,7 @@ def estimate_resolution(image, mode_vertical, mode_horizontal):
     return round(resolution_x), round(resolution_y)
 
 def main():
-    image_path = "gazou03.png"
+    image_path = "img01.png"
     image = load_and_display_image(image_path)
     gray, adaptive_thresh, edges = preprocess_image(image)
     display_image(adaptive_thresh, "Adaptive Threshold")
