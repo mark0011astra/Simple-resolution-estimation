@@ -66,7 +66,7 @@ def estimate_resolution(image, vertical_lines, horizontal_lines):
     else:
         resolution_x = 0
 
-    return round(resolution_x), round(resolution_y)
+    return round(resolution_x), round(resolution_y) 
 
 def main():
     image_path = "img01.png"
